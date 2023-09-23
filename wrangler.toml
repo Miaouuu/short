@@ -1,0 +1,7 @@
+name = "short"
+main = "src/index.ts"
+compatibility_date = "2023-09-18"
+
+[[kv_namespaces]]
+binding = "SHORT"
+id = "03e14e07f9e142a6969aa1b2546dfa94"
