@@ -9,7 +9,7 @@ export default {
 		if (short === '') {
 			return new Response('Not found', { status: 404 });
 		}
-		const redirect = await env.SHORT.get(short);
+		const redirect = await env.SHORT.get(short.toUpperCase());
 		if (redirect === null) {
 			return new Response('Not found', { status: 404 });
 		}
